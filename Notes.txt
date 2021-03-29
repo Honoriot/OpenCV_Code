@@ -1,0 +1,38 @@
+Basic elements of CNC:
+1. Program
+2. MCU(Machine control unit)
+3. Processing equipments
+
+Part Program of instructions:
+It is the set of detailed step by step commands that directs the action of processing equipments. These commands 
+defines the position of machine tool expindel with respect to the work table. These commands also defines cutting tool 
+path, spindel speed, tool changes, coolent on and off and several other functions of machine tool that can be automatically
+control.
+
+Machine control Units(MCU):
+The machine control unit is a micro computer and related to a c0mputer hardware that stores thge programe of computer instructions and excutes it by converting each command 
+into to machanical actionsof the procseesing equipments, one command at a time.
+
+Processing Unit equipments:
+It perform the actual productive work. It accomplishes the processing steps to transform the starting work peice into a completed work part.
+
+CNC:
+It is defined as an NC system whose MCU is based on micro computer rather that hard wire controller.
+
+Need of CNC systems:
+CNC systems have become very popular in industries, this is because even hoghly skilled worker can not assure accuracy and equality on conventionnal machine tool
+, where on a CNC machine even a semi skilled worker can virtual ensure ensure 0 rejection. Where ever higher accuracy is desired, at the same time
+change in the types of jobs is to frequent, immeplementing a CNC system is the only answer.
+
+Features of CNC:
+1. Storage of more that one part Program.
+    With imporvemt in computer storage technlogy the newer CNC controller has sufficient capicity to store multiple programs.
+    Controller manufactures generally offer one or more memory expansions as options to the MCU.
+2. Various forms of program input.
+    CNC controllers generally posses multiple data entry copabilities such as punch tape, magnetic tape, floppy disk, manual data input.
+Interpolation:
+linear and circular interpolation are sometime hard wire into the control unit, but hallical, circular interpolation are controlled by stored algorithm.
+
+Program editteing a5t the machine tool:
+CNC permitted to a part program yto be editted while it reside in the MCU computer memory. hence a program can be tested and coeeceted entirely at the macine site, 
+rather than being returned to the programming office for corrections.
